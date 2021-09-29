@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+       --primary-color: white;
+    --secondary-color: #212121;
+}
+
+.dark-theme{
+    --primary-color:#000106;
+    --secondary-color: white;
+}
+
+.hero{
+    height: auto;
+    width: 100%;
+    background: var(--primary-color);
+    font-family: sans-serif;
+    position: relative;
+}
+
+main{
+    margin: 0 auto;
+}
+nav{
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+#icon{
+    width: 25px;
+    cursor: pointer;
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+
+.social{
+    padding: 30px;
+    margin-left: 8%;
+    margin-top: 100px;
+}
+.social a{
+    font-size: 30px;
+    color: var(--secondary-color);
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.social a:hover{
+    color: red;
+}
+
+footer {
+    background-color: rgb(67, 70, 88);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 0px 0;
+    margin-top: 25px; 
+}
+
+h1,h3{
+    color: green;
+    text-align: justify;
+    padding: 20px 80px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+p,h4{
+    text-align: justify;
+    padding: 10px 80px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-weight: 500; 
+    color: var(--secondary-color);
+}
+
+.ul{
+    text-align: justify;
+    padding: 10px 80px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-weight: 500; 
+    color: var(--secondary-color);
+}
+
+hr{
+    border: 2px solid green ;
+    border-radius: 1px;
+}
+
+.arbi{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: right;
+}
+.bangla{
+    font-size: 16px;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: 700;
+}
+
+.link:hover{
+    color: var(--secondary-color);
+    font-weight: 700;
+}
+
+.btn{
+    margin: 5px 60px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+.audio{
+    margin: 5px 60px;
+    float: right;
+    padding: 20px auto;
+}
+p i{
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 0;
+    padding: 0;
+    float: right;
+}
